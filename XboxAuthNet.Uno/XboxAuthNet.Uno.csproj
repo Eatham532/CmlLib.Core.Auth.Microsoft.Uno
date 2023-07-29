@@ -5,10 +5,11 @@
     <!-- Ensures the .xr.xml files are generated in a proper layout folder -->
     <GenerateLibraryLayout>true</GenerateLibraryLayout>
     <Title>XboxAuthNet.Uno</Title>
-    <Authors>Eatham</Authors>
-    <Description>Microsoft OAuth 2.0 and Xbox Authentication migrated to work with the Uno Platform</Description>
-    <PackageProjectUrl></PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Eatham532/XboxAuthNet.Uno</RepositoryUrl>
+    <Authors>Eatham532</Authors>
+    <Description>Microsoft OAuth 2.0 and Xbox Authentication migrated for the Uno Platfomr</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Eatham532/CmlLib.Core.Auth.Microsoft.Uno</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Uno.WinUI" Version="4.9.17" />
@@ -55,6 +56,10 @@
     <UpToDateCheckInput Remove="Platforms\Uno\UnoContentDialog.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="https:\github.com\Eatham532\XboxAuthNet.Uno\blob\main\README.md" />
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
