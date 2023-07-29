@@ -2,9 +2,9 @@
 
 ## Contains the following packages
 
-- [`CmlLib.Core.Auth.Microsoft.Uno`]
-- [`XboxAuthNet.Game.Uno`]
-- [`XboxAuthNet.Uno`]
+- [`CmlLib.Core.Auth.Microsoft.Uno`](https://github.com/Eatham532/CmlLib.Core.Auth.Microsoft.Uno/tree/master/CmlLib.Core.Auth.Microsoft.Uno)
+- [`XboxAuthNet.Game.Uno`](https://github.com/Eatham532/CmlLib.Core.Auth.Microsoft.Uno/tree/master/XboxAuthNet.Game.Uno)
+- [`XboxAuthNet.Uno`](https://github.com/Eatham532/CmlLib.Core.Auth.Microsoft.Uno/tree/master/XboxAuthNet.Uno)
 
 Each project has been migrated to work with the [Uno Platform](https://github.com/unoplatform/uno)
 

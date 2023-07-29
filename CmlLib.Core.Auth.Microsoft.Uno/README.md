@@ -2,7 +2,7 @@
 
 <img src='https://raw.githubusercontent.com/CmlLib/CmlLib.Core/master/icon.png' width=128>
 
-[![Nuget Badge](https://img.shields.io/nuget/v/CmlLib.Core.Auth.Microsoft)](https://www.nuget.org/packages/CmlLib.Core.Auth.Microsoft)
+[![Nuget Badge](https://img.shields.io/nuget/v/CmlLib.Core.Auth.Microsoft.Uno)](https://www.nuget.org/packages/CmlLib.Core.Auth.Microsoft.Uno)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/CmlLib/CmlLib.Core.Auth.Microsoft/blob/master/LICENSE)
 
 [![Discord](https://img.shields.io/discord/795952027443527690?label=discord\&logo=discord\&style=for-the-badge)](https://discord.gg/cDW2pvwHSc)
@@ -25,7 +25,7 @@ Minecraft login with Microsoft Xbox account migrated to work with the UnoPlatfor
 
 ## Install
 
-Install NuGet package: [CmlLib.Core.Auth.Microsoft](https://www.nuget.org/packages/CmlLib.Core.Auth.Microsoft.Uno)
+Install NuGet package: [CmlLib.Core.Auth.Microsoft.Uno](https://www.nuget.org/packages/CmlLib.Core.Auth.Microsoft.Uno)
 
 ## Usage
 

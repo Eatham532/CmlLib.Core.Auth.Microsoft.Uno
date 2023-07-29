@@ -10,6 +10,7 @@
     <PackageReference Include="System.Text.Json" Version="7.0.3" />
     <PackageReference Include="Uno.Extensions.Logging.WinUI" Version="2.4.2" />
     <PackageReference Include="Uno.WinUI" Version="4.9.17" />
+    <PackageReference Include="XboxAuthNet.Uno" Version="1.0.0" />
   </ItemGroup>
   <Choose>
     <When Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
@@ -47,6 +48,8 @@
     <UpToDateCheckInput Include="**\*.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XboxAuthNet.Uno\XboxAuthNet.Uno.csproj" />
+	  <!--
+	   <ProjectReference Include="..\XboxAuthNet.Uno\XboxAuthNet.Uno.csproj" />
+	  -->
   </ItemGroup>
 </Project>

@@ -4,6 +4,11 @@
     <TargetFrameworks>$(TargetFrameworks);net7.0;net7.0-ios;net7.0-maccatalyst;net7.0-android</TargetFrameworks>
     <!-- Ensures the .xr.xml files are generated in a proper layout folder -->
     <GenerateLibraryLayout>true</GenerateLibraryLayout>
+    <Title>CmlLib.Core.Auth.Microsoft.Uno</Title>
+    <Description>Minecraft login with Microsoft Xbox account migrated to work with the UnoPlatform
+</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Eatham532/CmlLib.Core.Auth.Microsoft.Uno</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="CmlLib.Core" Version="3.3.7" />
@@ -53,5 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XboxAuthNet.Game.Uno\XboxAuthNet.Game.Uno.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
