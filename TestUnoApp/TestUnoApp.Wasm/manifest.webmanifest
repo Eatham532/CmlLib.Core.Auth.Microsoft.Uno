@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "TestUnoApp",
+  "display": "standalone",
+  "name": "TestUnoApp",
+  "short_name": "TestUnoApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

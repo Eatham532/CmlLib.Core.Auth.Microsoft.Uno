@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"TestUnoApp.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"TestUnoApp.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}
